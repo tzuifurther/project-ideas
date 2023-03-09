@@ -1,0 +1,16 @@
+---
+title: "Project Ideas"
+format:
+  html:
+    page-layout: full
+    self-contained: true
+bibliography: references.bib
+---
+
+## Coarsened Exact Matching
+**Status**: 🟨
+
+Marry cutting-edge supervised discretion algorithms [@kurgan_caim_2004]
+(need to find truly cutting-edge methods, but this seems to be the canonical
+example) with coarsened exact matching (CEM) [@iacus_causal_2012] to improve
+the recovery of true causal parameter(s) with CEM.

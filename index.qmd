@@ -14,3 +14,17 @@ Marry cutting-edge supervised discretion algorithms [@kurgan_caim_2004]
 (need to find truly cutting-edge methods, but this seems to be the canonical
 example) with coarsened exact matching (CEM) [@iacus_causal_2012] to improve
 the recovery of true causal parameter(s) with CEM.
+
+## Causal Benchmark
+**Status**: 🟩
+
+There has been a recent influx in methods for ATE and HTE estimation, and
+particularly in methods that harness or build on ML algorithms. While each 
+method relies on underlying assumptions (many assumptions are common 
+across methods), and the estimation method of choice will likely depend on
+the relevant setting, there are often multiple estimation strategies that could
+be suitable in a given setting. Practitioners facing this decision suffer a
+lack of information on the relative pros and cons of the various estimators.
+This project will provide practical insight on the pros and cons of common
+HTE estimators by benchmarking them on a set of RCTs, treating the published
+results as ground truth for our causal estimators.
